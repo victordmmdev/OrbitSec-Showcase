@@ -120,6 +120,12 @@ As demonstrações públicas usam somente dados sintéticos:
 
 Alvos reais, credenciais, flags, transcrições, bancos e evidências nunca são incluídos neste repositório.
 
+### Vídeo de apresentação
+
+[▶ Assistir à demonstração prática do OrbitSEC](media/orbitsec-demonstracao.mp4)
+
+O vídeo apresenta o workspace autorizado, o terminal local integrado, a execução controlada do Nmap e a projeção dos resultados na interface de investigação. A gravação foi revisada para publicação e não contém credenciais ou evidências privadas.
+
 ## Direção de IA
 
 O OrbitSEC Copilot é planejado como camada opcional de explicação, não como agente ofensivo autônomo. Ele deverá explicar observações, resumir notas aprovadas pelo usuário, sugerir perguntas de validação e citar o contexto utilizado. Não executará comandos silenciosamente nem enviará evidências para provedores remotos por padrão.
