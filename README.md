@@ -1,7 +1,8 @@
 # OrbitSEC
 
 Cockpit local de investigação visual de segurança para Kali Linux.
-<img width="1600" height="900" alt="d2025db7-edae-4954-805a-c53e9e2432ab" src="https://github.com/user-attachments/assets/5cc3d4c4-d857-4124-95d1-a3a806efb1e2" />
+
+![Interface do OrbitSEC exibindo um host e o serviço HTTP observados](media/orbitsec-interface.png)
 
 > Repositório público de apresentação. O código-fonte e os detalhes sensíveis de proteção permanecem privados.
 
