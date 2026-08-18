@@ -122,7 +122,9 @@ Alvos reais, credenciais, flags, transcrições, bancos e evidências nunca são
 
 ### Vídeo de apresentação
 
-[▶ Assistir à demonstração prática do OrbitSEC](media/orbitsec-demonstracao.mp4)
+[![Demonstração animada do OrbitSEC](media/orbitsec-demonstracao.gif)](media/orbitsec-demonstracao.mp4)
+
+[▶ Assistir ao vídeo original em maior qualidade](media/orbitsec-demonstracao.mp4)
 
 O vídeo apresenta o workspace autorizado, o terminal local integrado, a execução controlada do Nmap e a projeção dos resultados na interface de investigação. A gravação foi revisada para publicação e não contém credenciais ou evidências privadas.
 
