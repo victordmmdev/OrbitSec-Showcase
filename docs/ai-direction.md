@@ -1,31 +1,23 @@
-# AI integration direction
+# Direção de integração com IA
 
-The proposed AI feature is an optional investigation explainer, not an autonomous offensive agent.
+O OrbitSEC Copilot será uma camada opcional de explicação para laboratórios autorizados. Seu objetivo é ajudar o usuário a interpretar observações estruturadas sem transformar respostas do modelo em fatos ou comandos confiáveis.
 
-## Intended experience
+## Princípios
 
-When the user selects an observed service, the assistant may receive a deliberately bounded context containing public-safe fields such as service type, port, reported product, reported version, and candidate advisory identifiers. It can then:
+- Preferência por inferência local em projetos privados.
+- Contexto mínimo, estruturado e aprovado pelo usuário.
+- Citação das observações utilizadas em cada explicação.
+- Separação entre observação, hipótese, CVE candidata e achado.
+- Nenhuma execução automática de terminal.
+- Provedores remotos opcionais e acionados explicitamente.
 
-- Explain what the observation means in beginner-friendly language.
-- Distinguish observations, candidates, and confirmed findings.
-- Suggest questions the operator can validate manually.
-- Summarize synthetic or user-approved lab notes.
-- Cite the OrbitSEC observation used to construct the explanation.
+## Primeiros casos de uso
 
-## Safety constraints
+1. Explicar um host ou serviço selecionado.
+2. Resumir notas aprovadas pelo usuário.
+3. Sugerir perguntas para validação manual.
+4. Produzir rascunhos rastreáveis para revisão.
 
-- No automatic terminal execution.
-- No silent upload of project data or transcripts.
-- No expansion beyond the project's declared authorized scope.
-- No claim that a candidate advisory proves exploitation or vulnerability.
-- No secrets, credentials, flags, or raw evidence included by default.
-- Local inference preferred for routine development and private labs.
-- Explicit user action required before any optional remote model request.
+## Avaliação
 
-## Cost-conscious prototype
-
-The first prototype can use deterministic sample responses and synthetic observations. A small local model can be introduced later behind a provider interface. Paid APIs remain optional and can be reserved for controlled portfolio demonstrations.
-
-## Portfolio value
-
-This direction demonstrates grounded AI integration, privacy boundaries, prompt-context minimization, explainability, safe human control, and evaluation thinking without turning OrbitSEC into a hidden command executor.
+O protótipo deverá medir afirmações sem suporte, confusão entre observação e achado, desvio de escopo e exposição desnecessária de contexto. Respostas do modelo nunca substituirão evidência validada.
